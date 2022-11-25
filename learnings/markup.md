@@ -18,6 +18,8 @@ After incorporating the semantic elements in point 1, I then tested the site via
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
+The screen shot above confims that we built the site with the express purposes of it being accessible for users whether colour blind or not.
+
 ## 5. Use various tools to check that a website meets accessibility criteria
 
 We ran the HTML through https://validator.w3.org, which is a practice that I used regularly while studying the Advanced Web Authoring module of Birkbeck (indeed, a condition of gaining a high mark there was for the HTML to validate correctly). However, we came up against a number of problems when doing this. The validator flags up trailing slashes on void elements as bad for validation, yet Visual Studio Code (unless I am mistaken) appears to add these trailing slashes automatically. 
@@ -31,6 +33,8 @@ In addition, when running the site directly from LiveServer, the Lighthouse func
 ## 6. Ensure a website displays well on screens of different sizes
 
 ## 7. Use CSS media queries to ensure content is always presented effectively
+
+We not consider that we needed CSS media queries for this project, as it already scaled well.
 
 ## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
 
