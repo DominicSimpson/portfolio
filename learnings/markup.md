@@ -2,6 +2,10 @@
 
 ## 1. Structure a site using semantic HTML to aid accessibility
 
+![screenshot_accessibility](https://user-images.githubusercontent.com/52511353/203984380-4f7c734a-79ee-4f48-9c70-fdfe18bffbaa.png)
+
+This screenshot shows that we incorporated semantic elements in our HTML, including demarcating each section so that it can be tabbed through by the user. This is especially important for those with sight access requirements, and relates to the below.
+
 ## 2. Make a web page more readable for screen readers
 
 ## 3. Design a UI without relying solely on colour, so that we don’t exclude colour-blind users
