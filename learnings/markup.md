@@ -14,6 +14,8 @@ After incorporating the semantic elements in point 1, I then tested the site via
 
 ## 3. Design a UI without relying solely on colour, so that we don’t exclude colour-blind users
 
+![screenshot_accessibility(4)](https://user-images.githubusercontent.com/52511353/204042160-5571f419-7259-46ea-8a39-ce097b0c4b5c.png)
+
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
 ## 5. Use various tools to check that a website meets accessibility criteria
