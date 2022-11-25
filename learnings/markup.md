@@ -18,7 +18,7 @@ After incorporating the semantic elements in point 1, I then tested the site via
 
 ## 5. Use various tools to check that a website meets accessibility criteria
 
-We ran the HTML through https://validator.w3.org, which is a practice that I used regularly while studying the Advanced Web Authoring module of Birkbeck (indeed, a condition of gaining a high mark there was for the HTML to validate correctly). However, we came up against a number of problems when doing this. The validator flags up trailing slashes on void elements as bad for validation, yet Visual Studio Code (unless I am mistaken) appears to add this code automatically. 
+We ran the HTML through https://validator.w3.org, which is a practice that I used regularly while studying the Advanced Web Authoring module of Birkbeck (indeed, a condition of gaining a high mark there was for the HTML to validate correctly). However, we came up against a number of problems when doing this. The validator flags up trailing slashes on void elements as bad for validation, yet Visual Studio Code (unless I am mistaken) appears to add these trailing slashes automatically. 
 
 ![screenshot_accessibility(2)](https://user-images.githubusercontent.com/52511353/203989270-fef2a53c-4985-4db0-93f8-26278b7040d6.png)
 
