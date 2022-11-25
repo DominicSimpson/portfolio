@@ -8,13 +8,19 @@ This screenshot shows that we incorporated semantic elements in our HTML, includ
 
 ## 2. Make a web page more readable for screen readers
 
-The 
+After incorporating the semantic elements in point 1, I then tested the site via screen readers such as Windows Narrator, Speechify, and NVDA. The site worked well with the first two, but came up against issues with NVDA, which appeared to not be able to read the semantic HTML well. 
 
 ## 3. Design a UI without relying solely on colour, so that we don’t exclude colour-blind users
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
 ## 5. Use various tools to check that a website meets accessibility criteria
+
+We ran the HTML through https://validator.w3.org, which is a practice that I used regularly while studying the Advanced Web Authoring module of Birkbeck (indeed, a condition of gaining a high mark there was for the HTML to validate correctly). However, we came up against a number of problems when doing this. The validator flags up trailing slashes on void elements as bad for validation, yet Visual Studio Code (unless I am mistaken) appears to add this code automatically. 
+
+![screenshot_accessibility(2)](https://user-images.githubusercontent.com/52511353/203989270-fef2a53c-4985-4db0-93f8-26278b7040d6.png)
+
+In addition, when running the site directly from LiveServer, the Lighthouse function in Chrome claimed that there was no Alt text for the images, even though there were. 
 
 ## 6. Ensure a website displays well on screens of different sizes
 
