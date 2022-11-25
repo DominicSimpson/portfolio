@@ -42,6 +42,6 @@ We not consider that we needed CSS media queries for this project, as it already
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 
-
-
+Viewable here:
+![screenshot_accessibility(5)](https://user-images.githubusercontent.com/52511353/204043145-f7215a73-7033-4909-9c63-0f3a4d350d45.png)
 
