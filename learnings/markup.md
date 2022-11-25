@@ -4,7 +4,9 @@
 
 ![screenshot_accessibility](https://user-images.githubusercontent.com/52511353/203984380-4f7c734a-79ee-4f48-9c70-fdfe18bffbaa.png)
 
-This screenshot shows that we incorporated semantic elements in our HTML, including demarcating each section so that it can be tabbed through by the user. This is especially important for those with sight access requirements, and relates to the below. However, we missed using ARIA-labels, which was a glaring omission. 
+This screenshot shows that we incorporated semantic elements in our HTML, including demarcating each section so that it can be tabbed through by the user, as well as H1 and H2 headings in correct order, which ensured that they would be read out by a screen reader (see below). In addition, we used alt-tags on each image.
+Being able to tab through the site is especially important for those with sight access requirements, and relates to the below.
+Unfortunately, we missed using ARIA-labels, which was a glaring omission. 
 
 ## 2. Make a web page more readable for screen readers
 
@@ -20,7 +22,9 @@ We ran the HTML through https://validator.w3.org, which is a practice that I use
 
 ![screenshot_accessibility(2)](https://user-images.githubusercontent.com/52511353/203989270-fef2a53c-4985-4db0-93f8-26278b7040d6.png)
 
-In addition, when running the site directly from LiveServer, the Lighthouse function in Chrome claimed that there was no Alt text for the images, even though there were. 
+In addition, when running the site directly from LiveServer, the Lighthouse function in Chrome confusingly claimed that there were no alt-tags for the images, even though there were, and gave us 91% for Accessibility accordingly.
+
+![screenshot_accessibility(3)](https://user-images.githubusercontent.com/52511353/203996643-bf75a70f-d7be-481e-9a9b-60eeead79e5a.png)
 
 ## 6. Ensure a website displays well on screens of different sizes
 
