@@ -32,11 +32,19 @@ In addition, when running the site directly from LiveServer, the Lighthouse func
 
 ## 6. Ensure a website displays well on screens of different sizes
 
+![screenshot_accessibility(7)](https://user-images.githubusercontent.com/52511353/204137908-110d8d09-db95-4fc0-88e9-8e86f15a72f6.png)
+
+By using HTML elements that naturally adjust to different screen sizes as well as specific styles such as width: 100% on images, our page was responsive.
+
 ## 7. Use CSS media queries to ensure content is always presented effectively
 
 We not consider that we needed CSS media queries for this project, as it already scaled well.
 
 ## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
+
+Our commits show our mobile-first approach. This is in acknowledgement of the fact that many users increasingly access websites via mobile phone and tablets.
+
+![screenshot_accessibility(6)](https://user-images.githubusercontent.com/52511353/204137741-fabc795d-af8c-4f4b-a2e4-f4d4c79f4a31.png)
 
 ## 9. Create an attractive and accessible colour palette for a project
 
