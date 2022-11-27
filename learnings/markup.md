@@ -56,7 +56,7 @@ We used colour sparingly on the site. There is a black navigation bar, with link
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 
-Viewable here, learnt from Founders & Coders CSS lesson:
+Viewable here, learnt from Founders & Coders CSS workshop:
 
 ![screenshot_accessibility(5)](https://user-images.githubusercontent.com/52511353/204043145-f7215a73-7033-4909-9c63-0f3a4d350d45.png)
 
