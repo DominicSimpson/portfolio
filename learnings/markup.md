@@ -18,7 +18,7 @@ After incorporating the semantic elements in point 1, I then tested the site via
 
 ## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
-The screen shot above confims that we built the site with the express purposes of it being accessible for users whether colour blind or not.
+The screen shot above in Item #3 above confims that we built the site with the express purposes of it being accessible for users whether colour blind or not.
 
 ## 5. Use various tools to check that a website meets accessibility criteria
 
@@ -47,6 +47,12 @@ Our commits show our mobile-first approach. This is in acknowledgement of the fa
 ![screenshot_accessibility(6)](https://user-images.githubusercontent.com/52511353/204137741-fabc795d-af8c-4f4b-a2e4-f4d4c79f4a31.png)
 
 ## 9. Create an attractive and accessible colour palette for a project
+
+![screenshot_accessibility(8)](https://user-images.githubusercontent.com/52511353/204138184-eec1b4b7-5970-428d-b08c-8197d3431516.png)
+
+We used colour sparingly on the site. There is a black navigation bar, with links in white font colour; then the main section of the site has black font colour against a background of a sombre white/gray (#eee8e8). Meanwhile, for the biography section, we used a blend of blue, pink, and green to to lift the cards from the page. 
+
+![screenshot_accessibility(8)](https://user-images.githubusercontent.com/52511353/204138400-78ae67a7-1741-4502-a0a9-de3458a65f79.png)
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 
