@@ -52,8 +52,6 @@ Our commits show our mobile-first approach. This is in acknowledgement of the fa
 
 We used colour sparingly on the site. There is a black navigation bar, with links in white font colour; then the main section of the site has black font colour against a background of a sombre white/gray (#eee8e8). Meanwhile, for the biography section, we used a blend of blue, pink, and green to to lift the rider biography cards from the page. 
 
-![screenshot_accessibility(8)](https://user-images.githubusercontent.com/52511353/204138400-78ae67a7-1741-4502-a0a9-de3458a65f79.png)
-
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 
 Viewable here, learnt from Founders & Coders CSS workshop:
