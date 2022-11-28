@@ -34,7 +34,7 @@ In addition, when running the site directly from LiveServer, the Lighthouse func
 
 ![screenshot_accessibility(7)](https://user-images.githubusercontent.com/52511353/204137908-110d8d09-db95-4fc0-88e9-8e86f15a72f6.png)
 
-By using HTML elements that naturally adjust to different screen sizes as well as specific styles such as width: 100% on images, our page was responsive.
+By using HTML elements that naturally adjust to different screen sizes as well as specific styles such as max-width: 100% on images, our page was responsive.
 
 ## 7. Use CSS media queries to ensure content is always presented effectively
 
