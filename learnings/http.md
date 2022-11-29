@@ -1,24 +1,17 @@
-# Markup portfolio
+# HTTP portfolio
 
-## 1. Structure a site using semantic HTML to aid accessibility
+## 1. Write code that executes asynchronously
 
-![screenshot_accessibility](https://user-images.githubusercontent.com/52511353/203984380-4f7c734a-79ee-4f48-9c70-fdfe18bffbaa.png)
 
-This screenshot shows that we incorporated semantic elements in our HTML, including demarcating each section so that it can be tabbed through by the user, as well as H1 and H2 headings in correct order, which ensured that they would be read out by a screen reader (see below). In addition, we used alt-tags on each image.
-Being able to tab through the site is especially important for those with sight access requirements, and relates to the below.
-Unfortunately, we missed using ARIA-labels, which was a glaring omission. 
 
-## 2. Make a web page more readable for screen readers
+## 2. Use callbacks to access values that aren't available synchronously
 
-After incorporating the semantic elements in point 1, I then tested the site via screen readers such as Windows Narrator, Speechify, and NVDA. The site worked well with the first two, but came up against issues with NVDA, which appeared to not be able to read the semantic HTML well. 
 
-## 3. Design a UI without relying solely on colour, so that we don’t exclude colour-blind users
+## 3. Use promises to access values that aren't available synchronously
 
-![screenshot_accessibility(4)](https://user-images.githubusercontent.com/52511353/204042160-5571f419-7259-46ea-8a39-ce097b0c4b5c.png)
 
-## 4. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
+## 4. Use the fetch method to make HTTP requests and receive responses
 
-The screen shot above in Item #3 above confims that we built the site with the express purposes of it being accessible for users whether colour blind or not.
 
 ## 5. Use various tools to check that a website meets accessibility criteria
 
