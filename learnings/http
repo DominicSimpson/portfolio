@@ -1,1 +1,17 @@
-Test
+# Markup portfolio
+
+## 1. Write code that executes asynchronously
+
+## 2. Use callbacks to access values that aren't avaialable synchronously
+
+## 3. Use promises to access values that aren't available synchronously
+
+## 4. Use the fetch method to make HTTP requests and receive responses
+
+## 5. Configure the options argument of the fetch method to make GET and POST requests
+
+## 6. Use the map array method to create a new array containing new values
+
+
+
+
