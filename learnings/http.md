@@ -15,7 +15,7 @@
 
 
 
-## 5. Configure the options argument of the fetch method to make GET and POST methods
+## 5. Configure the options argument of the fetch method to make GET and POST requests
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-## 9. Add and remove DOM nodes to change their content on the page
+## 9. Add and remove DOM nodes to change the content on the page
 
 
 
