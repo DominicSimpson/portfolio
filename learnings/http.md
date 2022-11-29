@@ -39,10 +39,22 @@
 
 
 
-## 10. Use CSS variables to apply repeated colours to HTML elements
+## 11. Use consistent layout and spacing
 
-Viewable here, learnt from Founders & Coders' CSS workshop:
 
-![screenshot_accessibility(5)](https://user-images.githubusercontent.com/52511353/204043145-f7215a73-7033-4909-9c63-0f3a4d350d45.png)
+
+## 12. Follow a spacing guideline to give our app a consistent feel
+
+
+
+## 13. Debug client side JS in our web browser
+
+
+
+## 14. Use console.log() to help us debug our code
+
+
+
+
 
 
