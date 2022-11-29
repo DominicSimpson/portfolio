@@ -19,11 +19,12 @@
 
 
 
-## 6. Ensure a website displays well on screens of different sizes
+## 6. Use the map array method to create a new array containing new values
 
 
 
-## 7. Use CSS media queries to ensure content is always presented effectively
+## 7. Use the filter array method to create a new array with certain values removed
+
 
 
 ## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
