@@ -27,15 +27,17 @@
 
 
 
-## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
+## 8. Access DOM nodes using a variety of selectors
 
 
 
-## 9. Create an attractive and accessible colour palette for a project
+## 9. Add and remove DOM nodes to change their content on the page
 
-![screenshot_accessibility(8)](https://user-images.githubusercontent.com/52511353/204138184-eec1b4b7-5970-428d-b08c-8197d3431516.png)
 
-We used colour sparingly on the site. There is a black navigation bar, with links in white font colour; then the main section of the site has black font colour against a background of a sombre white/gray ```(#eee8e8)```. Meanwhile, for the biography section, we used a blend of blue, pink, and green to to lift the rider biography cards from the page. 
+
+## 10. Toggle the classes applied to DOM nodes to change their CSS properties
+
+
 
 ## 10. Use CSS variables to apply repeated colours to HTML elements
 
