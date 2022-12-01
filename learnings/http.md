@@ -19,6 +19,9 @@ A separate JavaScript file in our project, consisting of a function called fetch
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
 
+Our two APIs that we used can be viewed here:
+
+![screenshot(4)](https://user-images.githubusercontent.com/52511353/205127525-a301d416-39a1-4209-8b44-e7694aeff487.png)
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
