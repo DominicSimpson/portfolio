@@ -2,6 +2,8 @@
 
 ## 1. Write code that executes asynchronously
 
+We used asynchronous JavaScript when fetching data for our project, which displays data relating to countries around the world, including population, currency, land size, capital city, etc. 
+
 
 ## 2. Use callbacks to access values that aren't available synchronously
 
@@ -13,6 +15,7 @@
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
+![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
 
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
