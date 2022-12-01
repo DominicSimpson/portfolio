@@ -34,14 +34,12 @@ A separate JavaScript file in our project, consisting of a function called fetch
 
 ## 8. Access DOM nodes using a variety of selectors
 
-Our generateElement JS file accessed the DOM, including 
 
-![screenshot(2)](https://user-images.githubusercontent.com/52511353/205121567-c727a6f3-ee54-472c-9722-bbc22d64165f.png)
 
 
 ## 9. Add and remove DOM nodes to change the content on the page
 
-Our generateElement JS file mentioned above, not only accessed DOM nodes, but also added and removed them, as you can see in the image below. We created list and paragraph elements, and set attribute and class lists within those elements. In addition, we also appended data in the created list elements.   
+Our generateElement JS file not only accessed DOM nodes, but also added and removed them, as you can see in the image below. We created list and paragraph elements, and set attribute and class lists within those elements. In addition, we also appended data in the created list elements.   
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205121567-c727a6f3-ee54-472c-9722-bbc22d64165f.png)
 
