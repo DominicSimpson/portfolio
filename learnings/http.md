@@ -38,6 +38,7 @@ A separate JavaScript file in our project, consisting of a function called fetch
 
 ![screenshot(4)](https://user-images.githubusercontent.com/52511353/205125299-ca3ac2d2-62c2-419b-8922-95cc6debe498.png)
 
+![screenshot(5)](https://user-images.githubusercontent.com/52511353/205125679-9f5945e2-32d1-4b49-86bb-c77210fa9e41.png)
 
 
 ## 9. Add and remove DOM nodes to change the content on the page
