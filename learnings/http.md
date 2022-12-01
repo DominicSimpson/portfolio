@@ -27,14 +27,13 @@ A separate JavaScript file in our project, consisting of a function called fetch
 ## 6. Use the map array method to create a new array containing new values
 
 
-
 ## 7. Use the filter array method to create a new array with certain values removed
 
 
-
+ 
 ## 8. Access DOM nodes using a variety of selectors
 
-
+The renderReceivedData JS file extensively manipulated DOM nodes using selectors. Each data item for a country (population, currency, capital city etc) had a corresponding class in the HTML. As you can see, these were manipulated, so that the drawn data from the APIs was displayed, within the renderCountry callback function. This was also linked to a separate function, which displayed the weather in the respective country's capital city.   
 
 ![screenshot(4)](https://user-images.githubusercontent.com/52511353/205125299-ca3ac2d2-62c2-419b-8922-95cc6debe498.png)
 
