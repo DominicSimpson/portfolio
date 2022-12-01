@@ -41,13 +41,15 @@ Our generateElement JS file accessed the DOM, including
 
 ## 9. Add and remove DOM nodes to change the content on the page
 
-Our generateElement JS filem mentioned above, not only accessed DOM nodes, but also added and removed them, as you can see in the image below. We created list and paragraph elements, and set attribute and class lists within those elements. In addition, we also appended data in the created list elements.   
+Our generateElement JS file mentioned above, not only accessed DOM nodes, but also added and removed them, as you can see in the image below. We created list and paragraph elements, and set attribute and class lists within those elements. In addition, we also appended data in the created list elements.   
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205121567-c727a6f3-ee54-472c-9722-bbc22d64165f.png)
 
-
 ## 10. Toggle the classes applied to DOM nodes to change their CSS properties
 
+As you can see with the screenshot in #9 above, we also created a createLoader function, whose purposes was to gave a visual clue to the user of the website when data was being fetched after the user entered in the name of a country. The function toggled the classes applied to DOM nodes to change their CSS properties. This can be seen in action in the screenshot below, which is what comes up when the user clicks search after entering in a country in the Search bar.
+
+![screenshot(3)](https://user-images.githubusercontent.com/52511353/205122899-ab6879e0-bece-4736-a2ce-7e5a588f293c.png)
 
 
 ## 11. Use consistent layout and spacing
