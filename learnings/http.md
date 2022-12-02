@@ -7,7 +7,22 @@ We used asynchronous JavaScript when fetching data for our project, which displa
 
 ## 2. Use callbacks to access values that aren't available synchronously
 
+The below uses a callback to access data via our weather API. 
 
+```js
+const getWeather = async (city) => {
+  const data = await fetchData(getweatherAPIurl + city);
+  if (data.message) {
+    //catch block
+    weatherEl.innerHTML = `${data.message} weather`;
+  } else if(Array.isArray(data)&&data.length===0 || data.temperature==''){//404
+    console.log(data)
+    weatherEl.innerHTML = 'No data available';
+  } else {
+    renderWeather(capital, data);
+  }
+};
+```
 
 ## 3. Use promises to access values that aren't available synchronously
 
@@ -27,14 +42,15 @@ Our two APIs that we used can be viewed here:
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
-
+We did not employ GET and POST methods when configuring the options argument of the fetch method. 
 
 ## 6. Use the map array method to create a new array containing new values
 
+We did not employ the map method in our code. 
 
 ## 7. Use the filter array method to create a new array with certain values removed
 
-
+We did not employ the filter method in our code. 
  
 ## 8. Access DOM nodes using a variety of selectors
 
@@ -43,7 +59,6 @@ The renderReceivedData JS file extensively manipulated DOM nodes using selectors
 ![screenshot(4)](https://user-images.githubusercontent.com/52511353/205125299-ca3ac2d2-62c2-419b-8922-95cc6debe498.png)
 
 ![screenshot(5)](https://user-images.githubusercontent.com/52511353/205125679-9f5945e2-32d1-4b49-86bb-c77210fa9e41.png)
-
 
 ## 9. Add and remove DOM nodes to change the content on the page
 
@@ -56,7 +71,6 @@ Our generateElement JS file not only accessed DOM nodes, but also added and remo
 As you can see with the screenshot in #9 above, we also created a createLoader function, whose purposes was to gave a visual clue to the user of the website when data was being fetched after the user entered in the name of a country. The function toggled the classes applied to DOM nodes to change their CSS properties. This can be seen in action in the screenshot below, which is what comes up when the user clicks search after entering in a country in the Search bar.
 
 ![screenshot(3)](https://user-images.githubusercontent.com/52511353/205122899-ab6879e0-bece-4736-a2ce-7e5a588f293c.png)
-
 
 ## 11. Use consistent layout and spacing
 
