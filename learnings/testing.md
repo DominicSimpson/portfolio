@@ -16,6 +16,18 @@ This test is designed to check if the user can add a new task to their to-do lis
 
 ## 3. Write testable, modular functions
 
+Rather than wrapping all code in one function, we used separate functions to handle each element of the functionality of our to-do list:
+
+```
+const getTasksFromLocalStorage()
+
+const addTaskItem()
+
+const deleteTask()
+
+const markTaskAsComplete()
+```
+
 ## 4. Write functions that add, remove or modify DOM nodes
 
 Our main script.js file includes a deleteTask function that removes a task node from the DOM:
