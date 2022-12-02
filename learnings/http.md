@@ -74,15 +74,15 @@ As you can see with the screenshot in #9 above, we also created a createLoader f
 
 ## 11. Use consistent layout and spacing
 
-
+To Do
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
-
+To Do
 
 ## 13. Debug client side JS in our web browser
 
-
+To Do
 
 ## 14. Use console.log() to help us debug our code
 
@@ -90,5 +90,3 @@ We used console.log regularly to help us debug. It was useful in noting that whe
 
 ![screenshot(6)](https://user-images.githubusercontent.com/52511353/205364990-00ab849f-2239-4368-94ab-bd7f252384b4.png)
 ![screenshot(7)](https://user-images.githubusercontent.com/52511353/205365195-3a3241ed-f913-4677-b459-0416e327f20c.png)
-
-
