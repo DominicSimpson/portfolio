@@ -24,7 +24,8 @@ Our main script.js file includes a deleteTask function that removes a task node 
 
 ## 5. Apply event listeners to HTML form elements
 
-```<form class="form" action="" id="to-do-input">
+```
+<form class="form" action="" id="to-do-input">
      <input
        class="form-input"
        required
@@ -35,7 +36,8 @@ Our main script.js file includes a deleteTask function that removes a task node 
        placeholder="Enter a to-do item"
         />
         <button type="submit" id="submit-btn">Submit</button>
-    </form>```
+    </form>
+    ```
 
 The submit button in the form above in HTML triggered an onclick callback function. 
 
@@ -45,14 +47,16 @@ The submit button in the form above in HTML triggered an onclick callback functi
 
 We delineated a number of global variables, so that they could be accessed by different functions. This included our local storage array:
 
-```// grabs input
+```
+// grabs input
 const input = document.querySelector("input");
 // grabs list
 const list = document.querySelector(".list");
 // grabs submit button
 const submitBtn = document.getElementById("submit-btn");
 // Array to store user's tasks
-let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];```
+let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];
+```
 
 Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions:
 
