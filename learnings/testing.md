@@ -14,16 +14,24 @@ This test is designed to check if the user can add a new task to their to-do lis
 
 ![testingscreenshot(2)](https://user-images.githubusercontent.com/52511353/205374991-b0340a08-a427-4abf-bd99-73b1b4ecbdea.png)
 
-
-
 ## 3. Write testable, modular functions
 
 ## 4. Write functions that add, remove or modify DOM nodes
 
+Our main script.js file includes a deleteTask function that removes a task node from the DOM:
+
+![testingscreenshot(2)](https://user-images.githubusercontent.com/52511353/205377304-4062c1b2-447e-4374-88d2-883813cb19bb.png)
+
 ## 5. Apply event listeners to HTML form elements
+
+The submit button in the HTML triggered an onclick callback function. 
+
+![screenshot(2)](https://user-images.githubusercontent.com/52511353/205378096-f5d64707-3eff-4a0d-86c6-65b982519db0.png)
 
 ## 6. Use scope to control what variables are accessible inside functions and blocks
 
 ## 7. Use CSS grid to create complex layouts
+
+We did not use CSS grid for this project, as it was not required.
 
 ## 8. Use CSS grid to make layouts that adapt to the viewport size
