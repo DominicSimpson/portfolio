@@ -11,13 +11,13 @@ We used asynchronous JavaScript when fetching data for our project, which displa
 
 ## 3. Use promises to access values that aren't available synchronously
 
-Carried out in our fetchData JS file, which contains a function called fetchData that contains promises:
+We carried this out in our fetchData JS file, which contained a function called fetchData that handled promises:
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205361382-43f2dee4-69ff-4bae-8808-0b3a8eb1c83e.png)
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-The above-mentioned fetchData JS file, used the fetch method to get responses from our two APIs.
+The above-mentioned fetchData JS file used the fetch method to get responses from our two APIs.
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
 
@@ -72,8 +72,11 @@ As you can see with the screenshot in #9 above, we also created a createLoader f
 
 ## 14. Use console.log() to help us debug our code
 
+We used console.log regularly to help us debug. It was useful in noting that when there were technical problems, it was often a server side problem at the API's end, rather than issues with our own code. An example can be seen in this screenshot, where the console log reveals that access to fetch from the (frequently erratic) Herokuapp app has been blocked, with the resulting outcome that weather isn't displayed on our page (following screenshot below). Meanwhile, on other occassions, there has been no problems in fetching thi data, and displaying the weather. 
 
+![screenshot(6)](https://user-images.githubusercontent.com/52511353/205363467-6661a34a-95c5-44f2-8d8a-90104166b1d1.png)
 
+![screenshot(7)](https://user-images.githubusercontent.com/52511353/205364880-a35e3c1a-653c-428c-acad-cad1631caac0.png)
 
 
 
