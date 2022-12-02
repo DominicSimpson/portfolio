@@ -24,11 +24,40 @@ Our main script.js file includes a deleteTask function that removes a task node 
 
 ## 5. Apply event listeners to HTML form elements
 
-The submit button in the HTML triggered an onclick callback function. 
+```<form class="form" action="" id="to-do-input">
+     <input
+       class="form-input"
+       required
+       aria-label="Enter task"
+       type="text"
+       id="to-do"
+       name="to-do"
+       placeholder="Enter a to-do item"
+        />
+        <button type="submit" id="submit-btn">Submit</button>
+    </form>```
+
+The submit button in the form above in HTML triggered an onclick callback function. 
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205378096-f5d64707-3eff-4a0d-86c6-65b982519db0.png)
 
 ## 6. Use scope to control what variables are accessible inside functions and blocks
+
+We delineated a number of global variables, so that they could be accessed by different functions. This included our local storage array:
+
+```// grabs input
+const input = document.querySelector("input");
+// grabs list
+const list = document.querySelector(".list");
+// grabs submit button
+const submitBtn = document.getElementById("submit-btn");
+// Array to store user's tasks
+let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];```
+
+Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions:
+
+![screenshot(3)](https://user-images.githubusercontent.com/52511353/205380846-ec937e06-7692-4769-aa48-c387ba18d233.png)
+
 
 ## 7. Use CSS grid to create complex layouts
 
