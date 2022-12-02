@@ -11,11 +11,13 @@ We used asynchronous JavaScript when fetching data for our project, which displa
 
 ## 3. Use promises to access values that aren't available synchronously
 
+Carried out in our fetchData JS file, which contains a function called fetchData that contains promises:
 
+![screenshot(1)](https://user-images.githubusercontent.com/52511353/205361382-43f2dee4-69ff-4bae-8808-0b3a8eb1c83e.png)
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-A separate JavaScript file in our project, consisting of a function called fetchData, used the fetch method to get responses from our two APIs.
+The above-mentioned fetchData JS file, used the fetch method to get responses from our two APIs.
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
 
