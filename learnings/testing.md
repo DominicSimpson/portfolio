@@ -44,7 +44,7 @@ Our main script.js file includes a deleteTask function that removes a task node 
 
 ## 5. Apply event listeners to HTML form elements
 
-```
+```html
 <form class="form" action="" id="to-do-input">
      <input
        class="form-input"
