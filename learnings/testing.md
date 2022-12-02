@@ -18,7 +18,7 @@ This test is designed to check if the user can add a new task to their to-do lis
 
 Rather than wrapping all code in one function, we used separate callback functions to handle each element of the functionality of our to-do list:
 
-```
+```js
      const getTasksFromLocalStorage = (task) => {
      ...
      }
