@@ -2,13 +2,19 @@
 
 ## 1. Check that passing a given input into our tests returns the expected output
 
-![templatetestingjs_screenshot](https://user-images.githubusercontent.com/52511353/205371775-a2f7394c-1197-46ad-b3a2-32515f1b79ff.png)
+![templatetestingjs_screenshot](https://user-images.githubusercontent.com/52511353/205373746-4c2f5f12-fa2a-4aae-a880-9b998b99ab72.png)
 
-We used the template test-helpers.js file (above) to help us incorporate our existing code (below) into a testing framework. As you can see the TDD template file is referenced when comparing actual and expected.
+We used the template test-helpers.js file (above) to help us incorporate our existing code (below) into a testing framework. As you can see the TDD template file is referenced when comparing actual and expected in this test, which checks if a user can mark a task as complete.
 
 ![testingscreenshot](https://user-images.githubusercontent.com/52511353/205373236-7eb4974c-6f3e-40d6-9945-25355a914377.png)
 
 ## 2. Write tests to mimic the behaviour of a user performing different actions
+
+This test is designed to check if the user can add a new task to their to-do list:
+
+![testingscreenshot(2)](https://user-images.githubusercontent.com/52511353/205374991-b0340a08-a427-4abf-bd99-73b1b4ecbdea.png)
+
+
 
 ## 3. Write testable, modular functions
 
