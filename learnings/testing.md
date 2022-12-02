@@ -67,7 +67,7 @@ The submit button in the form above in HTML triggered an onclick callback functi
 
 We delineated a number of global variables, so that they could be accessed by different functions. This included our local storage array:
 
-```
+```js
 // grabs input
 const input = document.querySelector("input");
 // grabs list
