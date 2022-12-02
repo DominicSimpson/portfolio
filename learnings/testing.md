@@ -40,7 +40,7 @@ Rather than wrapping all code in one function, we used separate callback functio
 
 Our main script.js file includes a deleteTask function that removes a task node from the DOM:
 
-![testingscreenshot(2)](https://user-images.githubusercontent.com/52511353/205377304-4062c1b2-447e-4374-88d2-883813cb19bb.png)
+![screenshot(1)](https://user-images.githubusercontent.com/52511353/205384632-8a608478-affd-4c7e-80e6-94cd40e12c13.png)
 
 ## 5. Apply event listeners to HTML form elements
 
