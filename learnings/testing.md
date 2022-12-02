@@ -19,21 +19,21 @@ This test is designed to check if the user can add a new task to their to-do lis
 Rather than wrapping all code in one function, we used separate callback functions to handle each element of the functionality of our to-do list:
 
 ```
-const getTasksFromLocalStorage = (task) => {
-...
-}
+     const getTasksFromLocalStorage = (task) => {
+     ...
+     }
 
-const addTaskItem = () => {
-...
-}
+     const addTaskItem = () => {
+     ...
+     }
 
-const deleteTask = () => {
-...
-}
+     const deleteTask = (e) => {
+     ...
+     }
 
-const markTaskAsComplete = () => {
-...
-}
+     const markTaskAsComplete = () => {
+     ...
+     }
 ```
 
 ## 4. Write functions that add, remove or modify DOM nodes
