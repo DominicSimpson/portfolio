@@ -37,7 +37,7 @@ Our main script.js file includes a deleteTask function that removes a task node 
         />
         <button type="submit" id="submit-btn">Submit</button>
     </form>
-    ```
+```
 
 The submit button in the form above in HTML triggered an onclick callback function. 
 
