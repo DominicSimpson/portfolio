@@ -72,7 +72,7 @@ As you can see with the screenshot in #9 above, we also created a createLoader f
 
 ## 14. Use console.log() to help us debug our code
 
-We used console.log regularly to help us debug. It was useful in noting that when there were technical problems, it was often a server side problem at the API's end, rather than issues with our own code. An example can be seen in this screenshot, where the console log reveals that access to fetch from the (frequently erratic) Herokuapp app has been blocked, with the resulting outcome that weather isn't displayed on our page (following screenshot below). Meanwhile, on other occassions, there has been no problems in fetching thi data, and displaying the weather. 
+We used console.log regularly to help us debug. It was useful in noting that when there were technical problems, it was often a server side problem at the API's end, rather than issues with our own code. An example can be seen in this screenshot, where the console log reveals that access to fetch from the (frequently erratic) Herokuapp app has been blocked, with the resulting outcome that weather isn't displayed on our page (following screenshot below). Meanwhile, on other occassions, there has been no problems in fetching this data, and displaying the weather. 
 
 ![screenshot(6)](https://user-images.githubusercontent.com/52511353/205364990-00ab849f-2239-4368-94ab-bd7f252384b4.png)
 ![screenshot(7)](https://user-images.githubusercontent.com/52511353/205365195-3a3241ed-f913-4677-b459-0416e327f20c.png)
