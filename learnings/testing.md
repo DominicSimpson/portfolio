@@ -58,10 +58,9 @@ const submitBtn = document.getElementById("submit-btn");
 let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];
 ```
 
-Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions:
+Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions. This example declares local variables while marking a task as complete (signalled visually by having a line though the task), as well as updating the tasks array in Local Storage. 
 
-![screenshot(3)](https://user-images.githubusercontent.com/52511353/205380846-ec937e06-7692-4769-aa48-c387ba18d233.png)
-
+![screenshot(3)](https://user-images.githubusercontent.com/52511353/205381752-9fab7dd1-a477-495b-96c1-deebfc27a8b5.png)
 
 ## 7. Use CSS grid to create complex layouts
 
