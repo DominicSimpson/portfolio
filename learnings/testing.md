@@ -78,7 +78,7 @@ const submitBtn = document.getElementById("submit-btn");
 let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];
 ```
 
-Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions. This example declares local variables while marking a task as complete (signalled visually by having a line though the task), as well as updating the tasks array in Local Storage. 
+Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions. This example declares local variables while marking a task as complete (signalled visually by ticking the box to the left of the task item and having a line run though the task), as well as updating the tasks array in Local Storage. 
 
 ![screenshot(3)](https://user-images.githubusercontent.com/52511353/205385020-0e551d10-43e4-4eb8-843e-7a0401998d47.png)
 
@@ -87,3 +87,9 @@ Meanwhile, other varables were made specific to functions, so local in scope, by
 We did not use CSS grid for this project, as it was not required.
 
 ## 8. Use CSS grid to make layouts that adapt to the viewport size
+
+As mentioned in #7 above, we didn't use CSS grid for this project. However, we did make the project adapt to differing viewport sizes, as you can see with this screenshot. Our CSS utilised media queries, including flex-grow commands. 
+
+![screenshot(4)](https://user-images.githubusercontent.com/52511353/205386328-8d4a1748-9f42-41a0-96d1-0a2327d2a6d0.png)
+
+
