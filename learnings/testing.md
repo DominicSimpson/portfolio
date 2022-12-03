@@ -14,7 +14,7 @@ The actual and expected results can be viewed in the console log in the screensh
 
 ## 2. Write tests to mimic the behaviour of a user performing different actions
 
-This test is designed to check if the user can add a new task to their to-do list, by mimicking the process:
+This test was designed to check if the user can add a new task to their to-do list, by mimicking the process:
 
 ![testingscreenshot(2)](https://user-images.githubusercontent.com/52511353/205374991-b0340a08-a427-4abf-bd99-73b1b4ecbdea.png)
 
@@ -42,7 +42,7 @@ Rather than wrapping all code in one function, we used separate callback functio
 
 ## 4. Write functions that add, remove or modify DOM nodes
 
-Our main script.js file includes a deleteTask function that removes a task node from the DOM:
+Our main script.js file included a deleteTask function that removes a task node from the DOM:
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205384632-8a608478-affd-4c7e-80e6-94cd40e12c13.png)
 
@@ -63,7 +63,7 @@ Our main script.js file includes a deleteTask function that removes a task node 
     </form>
 ```
 
-The submit button in the form above in HTML triggered an onclick callback function (below). 
+The submit button in the form above in HTML triggers an onclick callback function (below). 
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205378096-f5d64707-3eff-4a0d-86c6-65b982519db0.png)
 
@@ -95,5 +95,3 @@ We did not use CSS grid for this project, as it was not required.
 As mentioned in #7 above, we didn't use CSS grid for this project. However, we did make the project adapt to differing viewport sizes, as you can see with this screenshot. Our CSS utilised media queries, including flex-grow commands. 
 
 ![screenshot(4)](https://user-images.githubusercontent.com/52511353/205386328-8d4a1748-9f42-41a0-96d1-0a2327d2a6d0.png)
-
-
