@@ -22,6 +22,7 @@ const getWeather = async (city) => {
     renderWeather(capital, data);
   }
 };
+
 ```
 
 ## 3. Use promises to access values that aren't available synchronously
