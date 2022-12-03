@@ -23,8 +23,8 @@ const getWeather = async (city) => {
   }
 };
 
-
 ```
+
 ## 3. Use promises to access values that aren't available synchronously
 
 We carried this out in our fetchData JS file, which contained a function called fetchData that handled promises:
@@ -97,7 +97,8 @@ We ensured that the data on countries that displays on our page was laid out in 
 }
 .country-list > *:last-child {
   border-bottom: none;
-}```
+}
+```
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
