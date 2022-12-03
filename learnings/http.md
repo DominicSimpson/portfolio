@@ -74,7 +74,29 @@ As you can see with the screenshot in #9 above, we also created a createLoader f
 
 ## 11. Use consistent layout and spacing
 
-To Do
+We ensured that the data on countries that displays on our page was laid out in a consistent manner, with equal spacing, so that it provides an easily readable experience for the user that works well on the eye.
+
+```css
+.country-list {
+  padding: 0 1rem;
+  background: white;
+  z-index: 100;
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: scroll;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.country-list > * {
+  border-bottom: 1px solid #d2d2d2;
+}
+.country-list > *:last-child {
+  border-bottom: none;
+}```
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
