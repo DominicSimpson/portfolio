@@ -8,6 +8,10 @@ We used the template test-helpers.js file (above) to help us incorporate our exi
 
 ![testingscreenshot](https://user-images.githubusercontent.com/52511353/205373236-7eb4974c-6f3e-40d6-9945-25355a914377.png)
 
+The actual and expected results can be viewed in the console log in the screenshot below:
+
+![testingscreenshot(3)](https://user-images.githubusercontent.com/52511353/205453159-fad5d453-6335-458f-9601-fc1cef7a2944.png)
+
 ## 2. Write tests to mimic the behaviour of a user performing different actions
 
 This test is designed to check if the user can add a new task to their to-do list, by mimicking the process:
