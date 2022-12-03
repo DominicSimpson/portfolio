@@ -63,7 +63,7 @@ Our main script.js file included a deleteTask function that removes a task node 
     </form>
 ```
 
-The submit button in the form above in HTML triggers an onclick callback function (below). 
+The submit button in the form above in HTML triggers an onclick callback function (below). An alternative was that we could have used a "submit" event for the form instead.
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205378096-f5d64707-3eff-4a0d-86c6-65b982519db0.png)
 
