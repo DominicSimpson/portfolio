@@ -33,7 +33,7 @@ We carried this out in our fetchData JS file, which contained a function called 
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-The above-mentioned fetchData JS file used the fetch method to get responses from our two APIs.
+The above-mentioned fetchData JS file used the fetch method to make a HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next .then handler.
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
 
