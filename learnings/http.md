@@ -4,6 +4,8 @@
 
 We used asynchronous JavaScript when fetching data for our project, which displays data relating to countries around the world, including population, currency, land size, capital city, etc. 
 
+![screenshot(1)](https://user-images.githubusercontent.com/52511353/205499740-1886ed3e-786b-4b06-bd51-4f887b2dd6d6.png)
+
 
 ## 2. Use callbacks to access values that aren't available synchronously
 
@@ -27,15 +29,11 @@ const getWeather = async (city) => {
 
 ## 3. Use promises to access values that aren't available synchronously
 
-We carried this out in our fetchData JS file, which contained a function called fetchData that handled promises:
-
-![screenshot(1)](https://user-images.githubusercontent.com/52511353/205361382-43f2dee4-69ff-4bae-8808-0b3a8eb1c83e.png)
+We carried this out in our fetchData JS file, which contained a function called fetchData that handled promises (see screenshot in #1).
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-The above-mentioned fetchData JS file used the fetch method to make a HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next .then handler.
-
-![screenshot(1)](https://user-images.githubusercontent.com/52511353/205120422-a4dd07c9-1a5e-4813-8197-a1cb2f6695c0.png)
+The above-mentioned fetchData JS file used the fetch method to make a HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next .then handler (see screenshot in #1).
 
 Our two APIs that we used can be viewed here:
 
