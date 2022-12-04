@@ -101,7 +101,7 @@ In addition, we have used colour contrasts to clearly delineate the Search bar h
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
-We avoided building traditional table elements in the HTML for each key/value pair of data, and instead used flex elements instead. This was manipulated in the CSS to ensure that the the data table scales well if the user minimises the page via dragging the browser window edges. The data spacing scales well, as you can see in the screenshot below, where the browser has been minimised as much as possible. Each data key ('Area', 'Population', etc) does not overlap visually with its respective value ('242,900 km2' and '67,215,293' in the case of the United Kingdom). To this, we added margins for the heading elements, so that they do not 'bleed' to the edge of the browser window. 
+We avoided building traditional table elements in the HTML for each key/value pair of data, and instead used flex elements instead. This was manipulated in the CSS to ensure that the the data table scales well if the user minimises the page via dragging the browser window edges. This can see in the screenshot below, where the browser has been minimised as much as possible. Each data key ('Area', 'Population', etc) does not overlap visually with its respective value ('242,900 km2' and '67,215,293' in the case of the United Kingdom). To this, we also added margins for the heading elements, so that they do not 'bleed' to the edge of the browser window. 
 In total, this gave the page a professional feel when the browser window is minimised.
 
 ```css
