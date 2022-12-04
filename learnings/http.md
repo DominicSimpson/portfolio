@@ -73,7 +73,8 @@ As you can see with the screenshot in #9 above, we also created a createLoader f
 
 ## 11. Use consistent layout and spacing
 
-We ensured that the data on countries that displays on our page was laid out in a consistent manner, with equal spacing, so that it provides an easily readable experience for the user that works well on the eye.
+We ensured that the generated data table on countries that displays on our page was laid out in a consistent manner, with equal spacing, so that it provides an easily readable experience for the user that works well on the eye (CSS below).
+In addition, we have used colour contrasts to clearly delineate the Search bar heading section, including a logo and description of the site's purposes, with the data table section (in a darker background-colour), while using the same font for both sections for consistency. The same font is also used in the footer, which is clearly delineated by a black background colour.
 
 ```css
 .country-list {
@@ -100,22 +101,21 @@ We ensured that the data on countries that displays on our page was laid out in 
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
-By centering the main section of our site - the to-do list container - in the middle of the page, and adding flexbox, we have ensured that the page looks visually consistent, including when the user drags the browser window and minimises the page, in which case the container remains in the middle of the minimised browser.
+We avoided building traditional table elements in the HTML for each key/value pair of data, and instead used flex elements instead. This was manipulated in the CSS to ensure that the the data table scales well if the user minimises the page via dragging the browser window edges. The data spacing scales well, as you can see in the screenshot below, with each data key ('Area', 'Population', etc) not overlapping visually with its respective value ('242,900 km2' and '67,215,293' in the case of the United Kingdom. To this, we added margins for the heading elements, so that they do not 'bleed' to the edge of the browser window. 
+In total, this gave the page a professional feel when the browser window is minimised.
 
 ```css
-.todo-container {
+.flex-container {
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
-  height: 500px;
-  overflow: auto;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}```
+  width: 90%;
+  max-width: 600px;
+}
+```
 
-
+![screenshot(8)](https://user-images.githubusercontent.com/52511353/205501706-ec8876cd-f15f-4944-89ab-5e16c964e6a7.png)
 
 ## 13. Debug client side JS in our web browser
 
