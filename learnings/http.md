@@ -100,7 +100,22 @@ We ensured that the data on countries that displays on our page was laid out in 
 
 ## 12. Follow a spacing guideline to give our app a consistent feel
 
-To Do
+By centering the main section of our site - the to-do list container - in the middle of the page, and adding flexbox, we have ensured that the page looks visually consistent, including when the user drags the browser window and minimises the page, in which case the container remains in the middle of the minimised browser.
+
+```css
+.todo-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}```
+
+
 
 ## 13. Debug client side JS in our web browser
 
