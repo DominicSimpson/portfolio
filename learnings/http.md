@@ -58,7 +58,7 @@ The fetchData JS file project, mentioned in #1, used a Promise to send off reque
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-The above-mentioned fetchData JS file used the fetch method to make a HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next .then handler (see screenshot in #1).
+The screenshot of our fetchData JS file in #1 shows us using the fetch method to make a HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next .then handler.
 
 Our two APIs that we used can be viewed here:
 
