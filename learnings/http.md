@@ -66,15 +66,15 @@ Our two APIs that we used can be viewed here:
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
-We did not employ GET and POST methods when configuring the options argument of the fetch method. 
+We did not employ `GET` and `POST` methods when configuring the options argument of the fetch method. 
 
 ## 6. Use the map array method to create a new array containing new values
 
-We did not employ the map method in our code. 
+We did not employ the `map` method in our code. 
 
 ## 7. Use the filter array method to create a new array with certain values removed
 
-We did not employ the filter method in our code. 
+We did not employ the `filter` method in our code. 
  
 ## 8. Access DOM nodes using a variety of selectors
 
