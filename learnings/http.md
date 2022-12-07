@@ -99,7 +99,11 @@ const updatedData = data.map(el=> el + ' countries population');
 
 ## 7. Use the filter array method to create a new array with certain values removed
 
-We did not employ the `filter` method in our code. 
+We did not employ the `filter` method in our code. But if we had, it would have looked something like this example, in which a variable would store, via the `filter` method, only those countries with a population of less than 200,000:
+
+```js
+const smallPopulationCountries = data.filter(country=> country.population < 200000);
+```
  
 ## 8. Access DOM nodes using a variety of selectors
 
