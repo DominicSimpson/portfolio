@@ -58,7 +58,7 @@ The fetchData JS file project, mentioned in #1, used a Promise to send off reque
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
-The screenshot of our fetchData JS file in #1 shows us using the global `fetch` method to make a straightforward HTTP request from our two APIs. When that promise was fullfilled it was returned, and its handling was deferred to the next `.then` handler.
+The screenshot of our fetchData JS file in #1 shows us using the global `fetch` method to make a straightforward HTTP request from our two APIs to fetch resources asynchronously across the network. When that promise was fullfilled it was returned, and its handling was deferred to the next `.then` handler.
 
 Our two APIs that we used can be viewed here:
 
