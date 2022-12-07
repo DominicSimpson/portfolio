@@ -70,10 +70,10 @@ We did not employ `GET` and `POST` methods when configuring the options argument
 
 ```js
     function sendRequest(url, method, data){    
-        //  Second argument in fetch function is object where we set method POST or other methods, 
-        // GET is already default
+        //  Second argument in fetch function is object where we would set method POST or other methods, 
+       // GET is already default
         return fetch(url, {
-            method:method, // the method from sendRequest argument assigns to method in this obj parameter
+            method:method, // The method from sendRequest argument assigns to method in this obj parameter
             body: JSON.stringify(data), // Data from sendRequest we convert to JSON data by JSON.stringify() 
             header: {
                 'Content-Type': 'application/json' // Tells API that we have JSON data
@@ -91,7 +91,11 @@ We did not employ `GET` and `POST` methods when configuring the options argument
 
 ## 6. Use the map array method to create a new array containing new values
 
-We did not employ the `map` method in our code. 
+We did not employ the `map` method in our code. But if we had used it, it would look like this, where each section of data would be stored in a variable after employing the map method on it:
+
+```js
+const updatedData = data.map(el=> el + ' countries population');
+```
 
 ## 7. Use the filter array method to create a new array with certain values removed
 
