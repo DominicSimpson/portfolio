@@ -63,7 +63,7 @@ Our main script.js file included a deleteTask function that removes a task node 
     </form>
 ```
 
-The submit button in the form above in HTML triggers an onclick callback function (below). An alternative was that we could have used a "submit" event for the form instead.
+The submit button in the form above in HTML triggers an onclick callback function (below). An alternative was that we could have used a `submit` event for the form instead.
 
 ![screenshot(2)](https://user-images.githubusercontent.com/52511353/205378096-f5d64707-3eff-4a0d-86c6-65b982519db0.png)
 
@@ -72,14 +72,13 @@ The submit button in the form above in HTML triggers an onclick callback functio
 We delineated a number of global variables, so that they could be accessed by different functions. This included our local storage array:
 
 ```js
-// grabs input
-const input = document.querySelector("input");
-// grabs list
-const list = document.querySelector(".list");
-// grabs submit button
-const submitBtn = document.getElementById("submit-btn");
-// Array to store user's tasks
-let userTasks = JSON.parse(localStorage.getItem("userTasks")) || [];
+const input = document.querySelector("input"); // Grabs input
+
+const list = document.querySelector(".list"); // Graps list
+
+const submitBtn = document.getElementById("submit-btn"); // Grabs submit button
+
+let userTasks = JSON.parse(localStorage.getItem("userTasks")) || []; // Global variable array to store user's tasks
 ```
 
 Meanwhile, other varables were made specific to functions, so local in scope, by being declared inside the functions. This example declares local variables while marking a task as complete (signalled visually by ticking the box to the left of the task item and having a line run though the task), as well as updating the tasks array in Local Storage. 
