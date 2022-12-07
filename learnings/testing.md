@@ -87,7 +87,31 @@ Meanwhile, other varables were made specific to functions, so local in scope, by
 
 ## 7. Use CSS grid to create complex layouts
 
-We did not use CSS grid for this project, as it was not required.
+We did not use CSS grid for this project, as it was not required. If we had used CSS grid on the main to-do list container, it could've looked something like this:
+
+```css
+.todo-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  height: 500px;
+  overflow: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  .list {
+  grid-row-start: 2; // this would make the to-do list text take up a bigger section than the tick box on the left, and the delete x on the right
+  grid-row-end: 4;
+}
+  }
+}
+```
 
 ## 8. Use CSS grid to make layouts that adapt to the viewport size
 
