@@ -173,7 +173,11 @@ In total, this gave the page a professional feel when the browser window is mini
 
 ## 13. Debug client side JS in our web browser
 
-For debugging client side JS in our web browser, we utilised Chrome's browser inspect tool extensively, including using breakpoints and used the `console.log` regularly, as outlined below. 
+For debugging client side JS in our web browser, we utilised Chrome's browser inspect tool extensively, including using breakpoints:
+
+![screenshot(9)](https://user-images.githubusercontent.com/52511353/206216517-97985be3-8931-4f25-bd31-231ada0bb40f.png)
+
+We also used `console.log` regularly, as outlined in #14 below. 
 
 ## 14. Use console.log() to help us debug our code
 
