@@ -38,7 +38,27 @@ By using HTML elements that naturally adjust to different screen sizes as well a
 
 ## 7. Use CSS media queries to ensure content is always presented effectively
 
-We not consider that we needed CSS media queries for this project, as it already scaled well.
+We not consider that we needed CSS media queries for this project, as it already scaled well. However, if we add employed CSS media queries in this project, it would've looked something like this:
+
+```css
+@media screen and (max-width: 600px) {
+.header-margin {
+  text-align: center;
+  font-size: small;
+  margin-top: 2rem;
+  }
+  
+.img {
+  width: 500px;
+  height: 165px;
+  margin: 0.3rem;
+  }
+  
+#contact-us {
+ // etc.
+}
+}
+```
 
 ## 8. Demonstrate a mobile-first approach to designing a website with a great user experience
 
