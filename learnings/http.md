@@ -185,3 +185,7 @@ We used `console.log` regularly to help us debug. It was useful in noting that w
 
 ![screenshot(6)](https://user-images.githubusercontent.com/52511353/205364990-00ab849f-2239-4368-94ab-bd7f252384b4.png)
 ![screenshot(7)](https://user-images.githubusercontent.com/52511353/205365195-3a3241ed-f913-4677-b459-0416e327f20c.png)
+
+Finally, we used console.log(data) to help us understand what data we were getting from the API's database, and how we could process the data when displaying it to the user.
+
+![screenshot(10)](https://user-images.githubusercontent.com/52511353/206295273-c3fc2836-9ee7-4dab-99de-283681d5e433.png)
