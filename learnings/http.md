@@ -6,6 +6,22 @@ We used asynchronous JavaScript when fetching data for our project, which displa
 
 ![screenshot(1)](https://user-images.githubusercontent.com/52511353/205499740-1886ed3e-786b-4b06-bd51-4f887b2dd6d6.png)
 
+Meanwhile, in our functions for retrieving data in our renderReceievedData.js file, the keyword `async` before a function denotes that function always returning a promise. The keyword `await` makes JavaScript wait until that promise settles and returns its result.
+
+```js
+const getWeather = async (city) => {
+  const data = await fetchData(getweatherAPIurl + city);
+  if (data.message) {
+    //catch block
+    weatherEl.innerHTML = `${data.message} weather`;
+  } else if(Array.isArray(data)&&data.length===0 || data.temperature==''){//404
+    console.log(data)
+    weatherEl.innerHTML = 'No data available';
+  } else {
+    renderWeather(capital, data);
+  }
+};
+```
 
 ## 2. Use callbacks to access values that aren't available synchronously
 
