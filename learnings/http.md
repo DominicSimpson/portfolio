@@ -177,7 +177,7 @@ For debugging client side JS in our web browser, we utilised Chrome's browser in
 
 ![screenshot(9)](https://user-images.githubusercontent.com/52511353/206216517-97985be3-8931-4f25-bd31-231ada0bb40f.png)
 
-We also used `console.log` regularly, as outlined in #14 below. 
+We also used `console.log` regularly to analyze any problems with our code, as well as checking for problems with the remote API servers, as outlined in #14 below. 
 
 ## 14. Use console.log() to help us debug our code
 
