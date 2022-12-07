@@ -42,7 +42,19 @@ const renderWeather = (city, data) => {
 
 ## 3. Use promises to access values that aren't available synchronously
 
-We carried this out in our fetchData JS file, which contained a function called fetchData that handled promises (see screenshot in #1). Promises are, of course, prototype object constuctors that represent the eventual outcome of an asynchronous operation.
+The fetchData JS file project, mentioned in #1, used a Promise to send off requests to load third-party data or do other asynchronous work. Using a Promise helped us to instruct our code to wait until the async work is done before continuing. In our project we used Promises to display a message instead of throwing an error if we received `!response.ok`. Promises are, of course, prototype object constuctors that represent the eventual outcome of an asynchronous operation.
+
+```js
+.catch((error) => {
+      if (error.status === 404) {
+        console.log(error)
+        return [];
+      } else {
+        return new Promise(resolve=> resolve({message: `Sorry, something went wrong from server side. ${error.message}`}));
+      }
+    });
+}
+```
 
 ## 4. Use the fetch method to make HTTP requests and receive responses
 
