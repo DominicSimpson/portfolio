@@ -66,7 +66,28 @@ Our two APIs that we used can be viewed here:
 
 ## 5. Configure the options argument of the fetch method to make GET and POST requests
 
-We did not employ `GET` and `POST` methods when configuring the options argument of the fetch method. 
+We did not employ `GET` and `POST` methods when configuring the options argument of the fetch method. However, if we did, this is how we would go about it:
+
+```js
+    function sendRequest(url, method, data){    
+        //  Second argument in fetch function is object where we set method POST or other methods, 
+        // GET is already default
+        return fetch(url, {
+            method:method, // the method from sendRequest argument assigns to method in this obj parameter
+            body: JSON.stringify(data), // Data from sendRequest we convert to JSON data by JSON.stringify() 
+            header: {
+                'Content-Type': 'application/json' // Tells API that we have JSON data
+            }
+
+
+    }).then(response =>{ // We get our response obj after fetching as promise
+        if(!response.ok){ // !ok - means not 200 to 299
+            throw new Error('not 200-299');
+        }
+        return response.json(); // Convert returning stream as JSON object
+    }).catch(err =>{alert(err)});  
+    }
+```
 
 ## 6. Use the map array method to create a new array containing new values
 
