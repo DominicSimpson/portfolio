@@ -25,20 +25,17 @@ const getWeather = async (city) => {
 
 ## 2. Use callbacks to access values that aren't available synchronously
 
-The below uses a callback to access data via our weather API. 
+The aforementioned getWeather async function accesses the renderWeather function as a callback, and in so doing displayed the appropriate message if there was no data available from the (frequently erratic) APIs. Otherwise, if everything went smoothly at the server's end, we accessed the values from the response and displayed them on the page.
 
 ```js
-const getWeather = async (city) => {
-  const data = await fetchData(getweatherAPIurl + city);
-  if (data.message) {
-    //catch block
-    weatherEl.innerHTML = `${data.message} weather`;
-  } else if(Array.isArray(data)&&data.length===0 || data.temperature==''){//404
-    console.log(data)
-    weatherEl.innerHTML = 'No data available';
-  } else {
-    renderWeather(capital, data);
-  }
+const renderWeather = (city, data) => {
+  weatherEl.innerHTML = '';
+  const pf = document.createElement('p');
+  const ps = document.createElement('p');
+
+  pf.innerHTML = `It is a ${data.description.toLowerCase()} day in ${city}.`;
+  ps.innerHTML = `The temperature is ${data.temperature}, wind speed is ${data.wind}.`;
+  weatherEl.append(pf, ps);
 };
 
 ```
